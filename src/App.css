@@ -1,0 +1,48 @@
+/* Global reset */
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: 'Playfair Display', serif !important; */
+}
+/*body {
+  font-family: 'Playfair Display', serif !important;
+} */
+
+
+/* Container for the whole app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Playfair Display', serif !important; /* Ensures the app takes full screen height */
+}
+
+/* Content section: takes up all space between navbar and footer */
+.content-container {
+  flex: 1;
+  padding: 20px; 
+  font-family: 'Playfair Display', serif !important; /* Add padding around content */
+}
+
+/* Navbar Styling */
+.navbar {
+  height: 40px; /* Example, adjust to your actual navbar height */
+  background-color: #333; /* Example, adjust to your navbar color */
+  color: #fff;
+  font-family: 'Playfair Display', serif !important;
+}
+
+/* Footer Styling */
+footer {
+  height: 60px;  /* Example, adjust to your actual footer height */
+  background-color: #333; /* Example, adjust to your footer color */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif !important;
+}
