@@ -47,7 +47,7 @@ function Home() {
 
   const slides = heroImages.map((img, i) => ({
     image: img,
-    heading: `Showcase ${i + 1}`,
+    heading: `Product ${i + 1}`,
     subQuote: 'Tagline or short description goes here.',
     textPosition: i % 2 === 0 ? 'left' : 'right',
   }));
