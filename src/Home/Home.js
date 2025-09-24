@@ -75,27 +75,7 @@ function Home() {
       </section>
 
     
-      
-      <section className="our-products">
-        <h1 className="products-heading">Our Products <span className="underline"></span></h1>
-        <div className="products-container">
-          {[0, 1, 2, 3].map(col => (
-            <div key={col} className="product-column">
-              
-              <div className={`product-card ${col % 2 === 0 ? 'small-card' : 'large-card'}`}>
-                <img src={col % 2 === 0 ? smallImages[col] : largeImages[col]} alt="Product" className="product-image" />
-                <Link to="/products" className="see-more-btn">Shop More</Link>
-              </div>
-              
-              <div className={`product-card ${col % 2 === 0 ? 'large-card' : 'small-card'}`}>
-                <img src={col % 2 === 0 ? largeImages[col] : smallImages[col]} alt="Product" className="product-image" />
-                <Link to="/products" className="see-more-btn">Shop More</Link>
-              </div>
-            </div>
-          ))}
-        </div>
-        <Link to="/products" className="view-more-products">View More Products</Link>
-      </section>
+  
     </div>
   );
 }
